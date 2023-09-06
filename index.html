@@ -1,174 +1,482 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Web Portofolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <!-- Botstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <!-- My CSS -->
+    <!-- BOOSTRAP ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+
+    <!-- MY CSS -->
     <link rel="stylesheet" href="style.css" />
-
-    <title>zen</title>
   </head>
   <body id="home">
-    <!--navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary shadow-sm fixed-top">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-primary shadow-sm fixed-top navbar-dark">
       <div class="container">
-        <a class="navbar-brand" href="#">ZEN 12 RPL 3</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+       <h4 data-text="Tatang hidayat"><a class="navbar-brand text-primary" href="#home">Tatang</a></h4>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse " id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a
-                class="nav-link active text-danger"
-                aria-current="page"
-                href="#"
-                >Home</a
-              >
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">about</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#projek">Project</a>
             </li>
-
             <li class="nav-item">
-              <a class="nav-link" href="#contact">contact</a>
+              <a class="nav-link" href="#galeri">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Contact</a>
             </li>
           </ul>
         </div>
+        <!-- SEARCH -->
+        <div class="search-box">
+          <input type="text" class="search-input" placeholder="Search " /> <a href="#" class="search-btn"><i class="bi bi-search"></i></a>
+        </div>
+        <!-- AKHIR SEARCH -->
       </div>
     </nav>
-    <!-- akhir navbar -->
-    <!-- jumbotron -->
-    <section class="jumbotron text-center">
-      <img src="img/foto1.jpg" alt="zen muhamad" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Zen Muhammad</h1>
-      <p class="lead">12 RPL 3</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,224L34.3,224C68.6,224,137,224,206,213.3C274.3,203,343,181,411,160C480,139,549,117,617,128C685.7,139,754,181,823,186.7C891.4,192,960,160,1029,160C1097.1,160,1166,192,1234,186.7C1302.9,181,1371,139,1406,117.3L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
-      </p>
-    </section>
-    <!-- akhir jumbotron -->
-    <!-- about -->
-<section id="about">
-<div class="container">
-    <div class="row text-center mb-3">
-        <div class="col">
-            <h2>About me</h2>
-        </div>
-    </div>
-    <div class="row justify-content-center fs-5 text-center">
-        <div class="col-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil beatae numquam eum nisi. Esse fugiat exercitationem pariatur eveniet numquam ex!</div>
-        <div class="col-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, minima similique nemo sunt nobis alias natus ea, suscipit debitis inventore eum animi et, accusantium illum.</div>
-    </div>
-</div>
-</section>
-    <!-- ahkir about -->
+    <!-- END NAVBAR -->
 
-    <!-- projects -->
-    <section id="projects">
-        <div class="container">
-            <div class="row text-center mb-3">
-                <div class="col">
-                    <h2>My Projects</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 mb-3">
-                    <div class="card"></div>
-                        <img src="img/foto-edit1.jpg " width="600" height="400" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">PAP</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card"></div>
-                        <img src="img/foto-edit3.jpg " width="600" height="400" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">PAP</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card"></div>
-                        <img src="img/foto-edit2.jpg " width="600" height="400" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">PAP</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                    
-                </div>
-            </div>
-        </div>
-
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,160L40,154.7C80,149,160,139,240,122.7C320,107,400,85,480,101.3C560,117,640,171,720,192C800,213,880,203,960,197.3C1040,192,1120,192,1200,165.3C1280,139,1360,85,1400,58.7L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    <!-- JUMBOTRON -->
+    <section class="jumbotron text-center mt-5">
+      <img src="img/tatang.png" alt="" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Tatang Hidayat</h1>
+      <p class="lead">Students | Front-End Developer</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,256L48,261.3C96,267,192,277,288,288C384,299,480,309,576,282.7C672,256,768,192,864,186.7C960,181,1056,235,1152,250.7C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
     </section>
-    <!-- akhir projects -->
-    <!-- contact -->
-    <section id="contact">
+    <!-- AKHIR JUMBOTRON -->
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3 mt-3">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            <p>"Jangan pernah menyerah pada rintangan. Setiap langkah mendekatkanmu pada tujuanmu. Tetap gigih dan percayalah pada dirimu sendiri."</p>
+          </div>
+          <div class="col-md-4">
+            <p>"Kehidupan adalah perjalanan yang singkat. Jadikan setiap momen berarti, cintailah, tersenyumlah, dan jadilah dirimu yang terbaik."</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e2edff"
+          fill-opacity="1"
+          d="M0,160L48,186.7C96,213,192,267,288,293.3C384,320,480,320,576,277.3C672,235,768,149,864,149.3C960,149,1056,235,1152,234.7C1248,235,1344,149,1392,106.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- AKHIR ABOUT -->
+
+    <!-- PROJECT -->
+    <section id="projek">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col mt-3">
+            <h2>My Project</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div class="card-img">
+                <img src="img/1.jpeg" width="" height="10px" alt="Project 1"  />
+                <h3 class="card-title">Wilz Universe</h3>
+              </div>
+              <div class="card-content">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div class="card-img">
+                <img src="img/2.jpeg" alt="Project 2" />
+                <h3 class="card-title">Friday Nightco</h3>
+              </div>
+              <div class="card-content">
+              
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div class="card-img">
+                <img src="img/3.jpeg" alt="Project 3" />
+                <h3 class="card-title">Bad Noise Music</h3>
+              </div>
+              <div class="card-content">
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div class="card-img">
+                <img src="img/4.jpeg" alt="Project 4" class=""/>
+                <h3 class="card-title">Friday Lens</h3>
+              </div>
+              <div class="card-content">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div class="card-img">
+                <img src="img/5.jpeg" alt="Project 5"/>
+                <h3 class="card-title">Wilz Creative</h3>
+              </div>
+              <div class="card-content">
+                
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,192L48,208C96,224,192,256,288,266.7C384,277,480,267,576,266.7C672,267,768,277,864,261.3C960,245,1056,203,1152,202.7C1248,203,1344,245,1392,266.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- AKHIR PROJECT -->
+
+    <!-- GALLERY -->
+    <section id="galeri">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
-            <h2>contact me</h2>
+          <h2>Gallery</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <div class="gambar">
+            <img src="img/6.jpeg" alt="gambar1" />
+            <img src="img/7.jpeg" alt="gambar2" />
+            <img src="img/8.jpeg" alt="gambar3" />
+            <img src="img/9.jpeg" alt="gambar4" />
+            <img src="img/10.jpeg" alt="gambar5" />
+            <img src="img/11.jpeg" alt="gambar6" />
+            <img src="img/12.jpeg" alt="gambar7" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- AKHIR GALLERY -->
+
+    <!-- CONTACT -->
+    <!-- <section id="kontak">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col mt-3">
+            <h2>Contact Me</h2>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-6">
+          <div class="col-md-8 mt-3">
             <form>
               <div class="mb-3">
-                <label for="name" class="form-label">nama lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Masukan Nama Lengkap" />
               </div>
               <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email">
-                <div class="mb-3">
-                  <label for="pesan" class="form-label">pesan</label>
-                  <textarea class="form-control" id="pesan" rows="3"></textarea>
-                </div>
+                <label for="emai" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Masukan Alamat Email" />
               </div>
-              <button type="kirim" class="btn btn-primary">kirim</button>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit">Submit</button>
             </form>
           </div>
         </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,256L30,229.3C60,203,120,149,180,117.3C240,85,300,75,360,96C420,117,480,171,540,181.3C600,192,660,160,720,144C780,128,840,128,900,144C960,160,1020,192,1080,213.3C1140,235,1200,245,1260,224C1320,203,1380,149,1410,122.7L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
-    </section>
-    <!-- akhir contact -->
-    <!-- footer -->
+      </div>gi
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0d6efd"
+          fill-opacity="1"
+          d="M0,224L80,234.7C160,245,320,267,480,256C640,245,800,203,960,208C1120,213,1280,267,1360,293.3L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
+    </section> -->
+    <!-- AKHIR CONTACT -->
+
+    <!-- FOOTER -->
     <footer class="bg-primary text-white text-center pb-3">
-      <p>created widt <i class="bi bi-heart-fill text-danger"></i> <a href="https://www.instagram.com/zenmuhammad81/" class="text-white fw-bold">zen muhammad</a></p>
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/mas_thdyt/" class="text-white fw-bold">TangHid</a></p>
     </footer>
-    <!-- akhir footer -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+    <!-- AKHIR FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Web Portofolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+
+    <!-- BOOSTRAP ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="home">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-primary shadow-sm fixed-top navbar-dark">
+      <div class="container">
+       <h4 data-text="Tatang hidayat"><a class="navbar-brand text-primary" href="#home">Tatang</a></h4>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projek">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeri">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- SEARCH -->
+        <div class="search-box">
+          <input type="text" class="search-input" placeholder="Search " /> <a href="#" class="search-btn"><i class="bi bi-search"></i></a>
+        </div>
+        <!-- AKHIR SEARCH -->
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- JUMBOTRON -->
+    <section class="jumbotron text-center mt-5">
+      <img src="img/tatang.png" alt="" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Tatang Hidayat</h1>
+      <p class="lead">Students | Front-End Developer</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,256L48,261.3C96,267,192,277,288,288C384,299,480,309,576,282.7C672,256,768,192,864,186.7C960,181,1056,235,1152,250.7C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- AKHIR JUMBOTRON -->
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3 mt-3">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            <p>"Jangan pernah menyerah pada rintangan. Setiap langkah mendekatkanmu pada tujuanmu. Tetap gigih dan percayalah pada dirimu sendiri."</p>
+          </div>
+          <div class="col-md-4">
+            <p>"Kehidupan adalah perjalanan yang singkat. Jadikan setiap momen berarti, cintailah, tersenyumlah, dan jadilah dirimu yang terbaik."</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e2edff"
+          fill-opacity="1"
+          d="M0,160L48,186.7C96,213,192,267,288,293.3C384,320,480,320,576,277.3C672,235,768,149,864,149.3C960,149,1056,235,1152,234.7C1248,235,1344,149,1392,106.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- AKHIR ABOUT -->
+
+    <!-- PROJECT -->
+    <section id="projek">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col mt-3">
+            <h2>My Project</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div class="card-img">
+                <img src="img/1.jpeg" width="" height="10px" alt="Project 1"  />
+                <h3 class="card-title">Wilz Universe</h3>
+              </div>
+              <div class="card-content">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div class="card-img">
+                <img src="img/2.jpeg" alt="Project 2" />
+                <h3 class="card-title">Friday Nightco</h3>
+              </div>
+              <div class="card-content">
+              
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div class="card-img">
+                <img src="img/3.jpeg" alt="Project 3" />
+                <h3 class="card-title">Bad Noise Music</h3>
+              </div>
+              <div class="card-content">
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div class="card-img">
+                <img src="img/4.jpeg" alt="Project 4" class=""/>
+                <h3 class="card-title">Friday Lens</h3>
+              </div>
+              <div class="card-content">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div class="card-img">
+                <img src="img/5.jpeg" alt="Project 5"/>
+                <h3 class="card-title">Wilz Creative</h3>
+              </div>
+              <div class="card-content">
+                
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,192L48,208C96,224,192,256,288,266.7C384,277,480,267,576,266.7C672,267,768,277,864,261.3C960,245,1056,203,1152,202.7C1248,203,1344,245,1392,266.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- AKHIR PROJECT -->
+
+    <!-- GALLERY -->
+    <section id="galeri">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <h2>Gallery</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <div class="gambar">
+            <img src="img/6.jpeg" alt="gambar1" />
+            <img src="img/7.jpeg" alt="gambar2" />
+            <img src="img/8.jpeg" alt="gambar3" />
+            <img src="img/9.jpeg" alt="gambar4" />
+            <img src="img/10.jpeg" alt="gambar5" />
+            <img src="img/11.jpeg" alt="gambar6" />
+            <img src="img/12.jpeg" alt="gambar7" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- AKHIR GALLERY -->
+
+    <!-- CONTACT -->
+    <!-- <section id="kontak">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col mt-3">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8 mt-3">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Masukan Nama Lengkap" />
+              </div>
+              <div class="mb-3">
+                <label for="emai" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Masukan Alamat Email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>gi
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0d6efd"
+          fill-opacity="1"
+          d="M0,224L80,234.7C160,245,320,267,480,256C640,245,800,203,960,208C1120,213,1280,267,1360,293.3L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
+    </section> -->
+    <!-- AKHIR CONTACT -->
+
+    <!-- FOOTER -->
+    <footer class="bg-primary text-white text-center pb-3">
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/mas_thdyt/" class="text-white fw-bold">TangHid</a></p>
+    </footer>
+    <!-- AKHIR FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
